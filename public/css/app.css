@@ -12,3 +12,8 @@
   font-size: 80px;
 }
 
+.sizeImg {
+  max-width: 200px;
+  max-height: 200px;
+}
+
