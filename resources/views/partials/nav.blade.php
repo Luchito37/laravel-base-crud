@@ -16,10 +16,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('comics.index') }}">Fumetti</a>
+                    <a class="nav-link {{Request::route()->getName() === 'comics.index' ? 'activeNav' : ''}}" href="{{ route('comics.index') }}">Fumetti</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('comics.create') }}">Crea un Nuovo Fumetto</a>
+                    <a class="nav-link {{Request::route()->getName() === 'comics.create' ? 'activeNav' : ''}}" href="{{ route('comics.create') }}">Crea un Nuovo Fumetto</a>
                 </li>
             </ul>
         </div>

@@ -17,3 +17,9 @@
   max-height: 200px;
 }
 
+.activeNav {
+  color: #14860f;
+  border: solid;
+  border-radius: 30px;
+}
+
